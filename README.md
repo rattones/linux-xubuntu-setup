@@ -23,7 +23,7 @@ download and install
    with this 
    > Defaults        pwfeedback
    
-   ```Save as **/etc/sudoers.d** as commented in this file```
+   *Save as **/etc/sudoers.d** as commented in this file*
    
  * first think to do
  `sudo apt update`

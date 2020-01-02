@@ -5,7 +5,7 @@ creating a setup to my xubuntu
 [Xubuntu.org](https://xubuntu.org/download) -> 18.04 LTS
 
 ### creating pendrive using Etcher
-download and install from 
+download and install 
 [Etcher](https://www.balena.io/etcher/)
 
 ### creating my setup partition 
@@ -18,9 +18,11 @@ download and install from
  `sudo visudo`
    It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
    > Defaults        env_reset
+   
    with this 
    > Defaults        pwfeedback
-   Save as **/etc/sudoers.d** as commented in this file
+   
+   ```Save as **/etc/sudoers.d** as commented in this file```
    
  * first think to do
  `sudo apt update`
@@ -28,8 +30,7 @@ download and install from
  * codecs and plugins 
  `sudo apt install ubuntu-restricted-extras`
  
- * install google chrome 
- [Chrome](https://www.google.com/chrome/)
+ * install [Google Chrome](https://www.google.com/chrome/)
  
  
 

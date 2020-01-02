@@ -35,6 +35,9 @@ download and install
  
  * download and install [Google Chrome](https://www.google.com/chrome/)
  
+ * install Java JRE
+ `sudo apt install openjdk-11-jre-headless`
+ 
  
 
 ## icons, fonts, interface, wallpapers and other visual configurations

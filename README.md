@@ -19,10 +19,11 @@ download and install
  
  * unity gtk modules common \
  `sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module` \
-   It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line \
+   It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
    > Defaults        env_reset \
+
    with this \
-   > Defaults        pwfeedback
+   > Defaults        pwfeedback 
    
    *Save as **/etc/sudoers.d** as commented in this file*
    

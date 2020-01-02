@@ -49,6 +49,11 @@ download and install
     update `sudo apt update` \
     install icon pack `sudo apt install papirus-icon-theme`
 
+ * install global menu \
+    adding respository `sudo add-apt-repository -y ppa:webupd8team/mate` \
+    update `sudo apt update` \
+    install `sudo apt install xfce4-topmenu-plugin libtopmenu-gtk3 libtopmenu-qt topmenu-mozilla-extension -y`    
+
 
 ### changin visual themes
 

@@ -45,11 +45,9 @@ download and install
  `sudo apt install fonts-firacode`
  
  * install Papirus Icons
-  > adding repository `sudo add-apt-repository ppa:papirus/papirus`
-  
-  > update `sudo apt update`
-  
-  > install icon pack `sudo apt install papirus-icon-theme`
+  adding repository `sudo add-apt-repository ppa:papirus/papirus`
+  update `sudo apt update`
+  install icon pack `sudo apt install papirus-icon-theme`
 
 
 ### changin visual themes

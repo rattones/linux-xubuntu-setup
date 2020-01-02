@@ -13,3 +13,27 @@ download and install from
   * sda2 -> ext4 /home
   * sda3 -> ext4 /dados  *partition to files projects and install games*
 
+## install extras to xubuntu
+ * password feedback at terminal
+ `sudo visudo`
+   It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
+   > Defaults        env_reset
+   with this 
+   > Defaults        pwfeedback
+   Save as **/etc/sudoers.d** as commented in this file
+   
+ * first think to do
+ `sudo apt update`
+ 
+ * codecs and plugins 
+ `sudo apt install ubuntu-restricted-extras`
+ 
+ * install google chrome 
+ [Chrome](https://www.google.com/chrome/)
+ 
+ 
+
+## icons, fonts, interface, wallpapers and other visual configurations
+
+ * install fira code font
+ `sudo apt install fonts-firacode`

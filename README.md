@@ -16,13 +16,12 @@ download and install
 ## install extras to xubuntu
  * password feedback at terminal
  `sudo visudo`
- * unity gtk modules common 
- `sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module`
  
-   It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
-   > Defaults        env_reset
-   
-   with this 
+ * unity gtk modules common \
+ `sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module` \
+   It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line \
+   > Defaults        env_reset \
+   with this \
    > Defaults        pwfeedback
    
    *Save as **/etc/sudoers.d** as commented in this file*
@@ -44,7 +43,7 @@ download and install
  * install fira code font
  `sudo apt install fonts-firacode`
  
- * install Papirus Icons \
+ * install Papirus Icons: \
     adding repository `sudo add-apt-repository ppa:papirus/papirus` \
     update `sudo apt update` \
     install icon pack `sudo apt install papirus-icon-theme`

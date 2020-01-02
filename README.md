@@ -64,3 +64,4 @@ download and install
  * change default window manager to **Numix**
  * change icon to **ePapyrus**
  * change fonts to **Fira Code** 
+ * download and config wallpaper

@@ -37,5 +37,14 @@ download and install
 
 ## icons, fonts, interface, wallpapers and other visual configurations
 
+### installing fonts and icons
+
  * install fira code font
  `sudo apt install fonts-firacode`
+
+### changin visual themes
+
+ * change default xfce theme to **Numix**
+ * change default window manager to **Numix**
+ * change icon to **e-Papyrus**
+ * change fonts to **Fira Code** 

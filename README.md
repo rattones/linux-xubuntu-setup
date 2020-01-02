@@ -16,6 +16,7 @@ download and install
 ## install extras to xubuntu
  * password feedback at terminal
  `sudo visudo`
+ 
    It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
    > Defaults        env_reset
    
@@ -30,7 +31,7 @@ download and install
  * codecs and plugins 
  `sudo apt install ubuntu-restricted-extras`
  
- * install [Google Chrome](https://www.google.com/chrome/)
+ * download and install [Google Chrome](https://www.google.com/chrome/)
  
  
 

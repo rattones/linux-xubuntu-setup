@@ -1,5 +1,5 @@
-# linux-xubunu-setup
-creating a setup to my xubuntu
+# Linux Xubuntu Setup
+creating a setup to my Xubuntu -> 18.04 LTS
 
 ## dowload and create a install pendrive for Xubuntu
 [Xubuntu.org](https://xubuntu.org/download) -> 18.04 LTS

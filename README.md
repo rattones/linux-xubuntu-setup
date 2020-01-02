@@ -45,14 +45,14 @@ download and install
  `sudo apt install fonts-firacode`
  
  * install Papirus Icons
-  adding repository `sudo add-apt-repository ppa:papirus/papirus`
-  update `sudo apt update`
-  install icon pack `sudo apt install papirus-icon-theme`
+    adding repository `sudo add-apt-repository ppa:papirus/papirus` \
+    update `sudo apt update` \
+    install icon pack `sudo apt install papirus-icon-theme`
 
 
 ### changin visual themes
 
  * change default xfce theme to **Numix**
  * change default window manager to **Numix**
- * change icon to **e-Papyrus**
+ * change icon to **ePapyrus**
  * change fonts to **Fira Code** 

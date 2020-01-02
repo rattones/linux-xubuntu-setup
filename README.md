@@ -55,7 +55,7 @@ download and install
  * install global menu \
     adding respository `sudo add-apt-repository -y ppa:webupd8team/mate` \
     update `sudo apt update` \
-    install `sudo apt install xfce4-topmenu-plugin libtopmenu-gtk3 libtopmenu-qt topmenu-mozilla-extension -y`    
+    install `sudo apt install xfce4-appmenu-plugin`    
 
 
 ### changin visual themes

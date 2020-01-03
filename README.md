@@ -67,3 +67,6 @@ download and install
  * change icon to **ePapyrus**
  * change fonts to **Fira Code** 
  * download and config wallpaper
+ 
+## and finish like this 
+(https://raw.githubusercontent.com/rattones/linux-xubunu-setup/master/xubuntu-finished.png)

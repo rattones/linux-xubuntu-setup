@@ -69,4 +69,4 @@ download and install
  * download and config wallpaper
  
 ## and finish like this 
-(https://raw.githubusercontent.com/rattones/linux-xubunu-setup/master/xubuntu-finished.png)
+!(https://raw.githubusercontent.com/rattones/linux-xubunu-setup/master/xubuntu-finished.png)

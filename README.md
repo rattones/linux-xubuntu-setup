@@ -37,7 +37,9 @@ download and install
  
  * install Java JRE
  `sudo apt install openjdk-11-jre-headless`
- 
+
+ * install zsh terminal `sudo apt install zsh` \
+ edit **passwd** file changing this *:/bin/bash* to this *:/bin/zsh* and restart the session
  
 
 ## icons, fonts, interface, wallpapers and other visual configurations

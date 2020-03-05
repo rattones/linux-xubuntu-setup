@@ -59,7 +59,7 @@ download and install
     update `sudo apt update` \
     install `sudo apt install xfce4-appmenu-plugin`    
 
-### install a docklet
+### install a dock
 
  * install plank dock
  `sudo apt install plank`

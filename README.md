@@ -20,9 +20,10 @@ download and install
  * unity gtk modules common \
  `sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module` \
    It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
-   > Defaults        env_reset \
+   > Defaults        env_reset 
 
-   with this \
+   with this 
+
    > Defaults        pwfeedback 
    
    *Save as **/etc/sudoers.d** as commented in this file*
@@ -39,15 +40,15 @@ download and install
  `sudo apt install openjdk-11-jre-headless`
 
  * install zsh terminal `sudo apt install zsh` \
- edit **passwd** file changing this *:/bin/bash* to this *:/bin/zsh* and restart the session
+ edit **/etc/passwd** file changing this *:/bin/bash* to this *:/bin/zsh* and restart the session \
+ open with your **text editor** or *nano* `sudo nano /etc/passwd`
  
 
 ## icons, fonts, interface, wallpapers and other visual configurations
 
 ### installing fonts and icons
 
- * install fira code font
- `sudo apt install fonts-firacode`
+ * install fira code font `sudo apt install fonts-firacode`
  
  * install Papirus Icons: \
     adding repository `sudo add-apt-repository ppa:papirus/papirus` \

@@ -4,7 +4,7 @@ creating a setup to my Xubuntu -> 18.04 LTS
 ## dowload and create a install pendrive for Xubuntu
 [Xubuntu.org](https://xubuntu.org/download) -> 18.04 LTS
 
-### creating pendrive using Etcher
+### create pendrive using Etcher
 download and install 
 [Etcher](https://www.balena.io/etcher/)
 
@@ -59,6 +59,10 @@ download and install
     update `sudo apt update` \
     install `sudo apt install xfce4-appmenu-plugin`    
 
+### install a docklet
+
+ * install plank dock
+ `sudo apt install plank`
 
 ### changin visual themes
 

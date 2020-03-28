@@ -81,4 +81,4 @@ download and install
  * download and config wallpaper
  
 ## and finish like this 
-![Final setup]()
+![Final setup](https://github.com/rattones/linux-xubunu-setup/blob/master/linux-final-setup.png)

@@ -14,51 +14,49 @@ download and install
   * sda3 -> ext4 /dados  *partition to files projects and install games*
 
 ## install extras to xubuntu
- * password feedback at terminal
- ```bash sudo visudo```
- 
- * unity gtk modules common \
- ```bash sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module``` \
+ * password feedback at terminal \
+ ```sudo visudo```
    It will open the configuration file “/etc/sudoers” in terminal with nano editor. Just add a new line under the line 
-   > Defaults        env_reset 
-
-   with this 
-
+   > Defaults        env_reset \
+   **with this** \
    > Defaults        pwfeedback 
    
    *Save as **/etc/sudoers.d** as commented in this file*
+ 
+ * unity gtk modules common \
+ ```sudo apt-get install unity-gtk-module-common unity-gtk2-module unity-gtk3-module``` 
    
  * first think to do
- ```bash sudo apt update```
+ ```sudo apt update```
  
  * codecs and plugins 
- ```bash sudo apt install ubuntu-restricted-extras```
+ ```sudo apt install ubuntu-restricted-extras```
  
  * download and install [Google Chrome](https://www.google.com/chrome/)
  
  * install Java JRE
- ```bash sudo apt install openjdk-11-jre-headless```
+ ```sudo apt install openjdk-11-jre-headless```
 
  * install zsh terminal `sudo apt install zsh` \
  edit **/etc/passwd** file changing this *:/bin/bash* to this *:/bin/zsh* and restart the session \
- open with your **text editor** or *nano* ```bash sudo nano /etc/passwd```
+ open with your **text editor** or *nano* ```sudo nano /etc/passwd```
  
 
 ## icons, fonts, interface, wallpapers and other visual configurations
 
 ### installing fonts and icons
 
- * install fira code font ```bash sudo apt install fonts-firacode```
+ * install fira code font ```sudo apt install fonts-firacode```
  
  * install Papirus Icons: \
-    adding repository ```bash sudo add-apt-repository ppa:papirus/papirus``` \
-    update ```bash sudo apt update``` \
-    install icon pack ```bash sudo apt install papirus-icon-theme```
+    adding repository ```sudo add-apt-repository ppa:papirus/papirus``` \
+    update ```sudo apt update``` \
+    install icon pack ```sudo apt install papirus-icon-theme```
 
  * install global menu \
-    adding respository ```bash sudo add-apt-repository -y ppa:webupd8team/mate``` \
-    update ```bash sudo apt update``` \
-    install ```bash sudo apt install xfce4-appmenu-plugin```
+    adding respository ```sudo add-apt-repository -y ppa:webupd8team/mate``` \
+    update ```sudo apt update``` \
+    install ```sudo apt install xfce4-appmenu-plugin```
 
 ### install a dock
 
@@ -69,10 +67,10 @@ download and install
  
 ### configurating file system
  * for development I need to change `fs.inotify.user_max_max_user_watches`, it can be solved by two way:
- 1- ```bash sudo sysctl -w fs.inotify.max_user_watches=524288 ``` all work time
+ 1- ```sudo sysctl -w fs.inotify.max_user_watches=524288 ``` all work time
  2- or setting this at ```bash sudo nano /etc/sysctl.conf``` add the line at the end of the file **fs.inotify.user_max_watches=524288**
  
-### changin visual themes
+### changing visual themes
 
  * change default xfce theme to **Numix**
  * change default window manager to **Numix**

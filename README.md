@@ -41,6 +41,84 @@ download and install
  edit **/etc/passwd** file changing this *:/bin/bash* to this *:/bin/zsh* and restart the session \
  open with your **text editor** or *nano* ```sudo nano /etc/passwd```
  
+## adding development tools
+
+### install php multi-version
+
+ * install latest php
+ ```bash
+  sudo apt install php
+ ```
+ * verifying php version
+ ```bash
+   sudo apt show php -a
+ ```
+ * install another php version (5.6, 7.0, 7.1, ... )
+ ```
+   sudo add-apt-repository ppa:ondrej/php
+   sudo apt update
+   sudo apt install php5.6
+```
+* now, you can install php libraries for any version
+```bash
+  sudo apt install php5.6-mb-string
+```
+* setting php versions 
+```bash
+  sudo update-alternatives --set php /usr/bin/php5.6
+```
+
+font: [Sempre Update](https://sempreupdate.com.br/instalar-versoes-diferentes-php-5-6-7-0-7-1-7-2-7-3-no-ubuntu/)
+
+### install docker from repository
+
+* set up the repository
+```bash
+  sudo apt update
+  sudo apt install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  sudo apt-key fingerprint 0EBFCD88
+    pub   rsa4096 2017-02-22 [SCEA]
+          9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+    uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+    sub   rsa4096 2017-02-22 [S]
+  sudo add-apt-repository \
+    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable"
+```
+* install docker engine
+```bash
+  sudo apt update
+  sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+* verify the instalation
+```bash
+  sudo docker run hello-world
+```
+* manage docker as a non-root user
+```bash
+  sudo groupadd docker
+  sudo usermod -aG docker $USER
+  newgrp docker
+  docker run hello-world
+```
+* configure docker to start on boot
+```bash
+  sudo systemctl enable docker
+```
+
+font: [docker docs](https://docs.docker.com/engine/install/ubuntu/) |
+      [post install](https://docs.docker.com/engine/install/linux-postinstall/)
+      
+### install dbeaver for database management
+
+download and install `.deb` from [DBeaver.io](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) 
 
 ## icons, fonts, interface, wallpapers and other visual configurations
 

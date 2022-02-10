@@ -169,9 +169,9 @@ download and install `.deb` from [DBeaver.io](https://dbeaver.io/files/dbeaver-c
 
 ### configurating file system
 
-* for development I need to change `fs.inotify.user_max_max_user_watches`, it can be solved by two way:
- 1- ` sudo sysctl -w fs.inotify.max_user_watches=524288 ` all work time
- 2- or setting this at ```bash sudo nano /etc/sysctl.conf``` add the line at the end of the file **fs.inotify.user_max_watches=524288**
+* for development I need to change `fs.inotify.user_max_max_user_watches`, it can be solved by two way: \
+ 1- ` sudo sysctl -w fs.inotify.max_user_watches=524288 ` all work time \
+ 2- or setting this at `sudo nano /etc/sysctl.conf` add the line at the end of the file **fs.inotify.user_max_watches=524288**
 
 ### changing visual themes
 
